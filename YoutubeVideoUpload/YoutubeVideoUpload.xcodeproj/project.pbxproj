@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8776FC1A580EB4005E8972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8776FB1A580EB4005E8972 /* main.m */; };
+		5E8776FF1A580EB4005E8972 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8776FE1A580EB4005E8972 /* AppDelegate.m */; };
+		5E8777021A580EB4005E8972 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8777011A580EB4005E8972 /* ViewController.m */; };
+		5E8777051A580EB4005E8972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8777031A580EB4005E8972 /* Main.storyboard */; };
+		5E8777071A580EB4005E8972 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8777061A580EB4005E8972 /* Images.xcassets */; };
+		5E87770A1A580EB4005E8972 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8777081A580EB4005E8972 /* LaunchScreen.xib */; };
+		5E8777161A580EB4005E8972 /* YoutubeVideoUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8777151A580EB4005E8972 /* YoutubeVideoUploadTests.m */; };
+		5E8777631A58110B005E8972 /* UploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8777581A58110B005E8972 /* UploadController.m */; };
+		5E8777641A58110B005E8972 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87775A1A58110B005E8972 /* Utils.m */; };
+		5E8777651A58110B005E8972 /* VideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87775C1A58110B005E8972 /* VideoData.m */; };
+		5E8777661A58110B005E8972 /* YouTubeDirectTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87775E1A58110B005E8972 /* YouTubeDirectTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E8777671A58110B005E8972 /* YouTubeGetUploads.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8777601A58110B005E8972 /* YouTubeGetUploads.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E8777681A58110B005E8972 /* YouTubeUploadVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8777621A58110B005E8972 /* YouTubeUploadVideo.m */; };
+		5E87776A1A581147005E8972 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8777691A581147005E8972 /* GTMOAuth2ViewTouch.xib */; };
+		5E87776D1A581170005E8972 /* GTLCommon_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87776B1A581170005E8972 /* GTLCommon_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E87776E1A581170005E8972 /* GTLNetworking_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87776C1A581170005E8972 /* GTLNetworking_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E8780901A5811EE005E8972 /* GTLYouTube_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87808F1A5811EE005E8972 /* GTLYouTube_Sources.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5E8780961A581324005E8972 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8780951A581324005E8972 /* AVFoundation.framework */; };
+		5E8780991A581336005E8972 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8780971A58132B005E8972 /* CoreGraphics.framework */; };
+		5E87809A1A58134A005E8972 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8780931A581318005E8972 /* UIKit.framework */; };
+		5E87809B1A58134E005E8972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8780911A5812BA005E8972 /* Foundation.framework */; };
+		5E87809D1A581681005E8972 /* videoTest.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 5E87809C1A581681005E8972 /* videoTest.MOV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E8777101A580EB4005E8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8776EE1A580EB4005E8972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8776F51A580EB4005E8972;
+			remoteInfo = YoutubeVideoUpload;
+		};
+		5E87774E1A5810CF005E8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8777471A5810CE005E8972 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		5E8777501A5810CF005E8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8777471A5810CE005E8972 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		5E8777521A5810CF005E8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8777471A5810CE005E8972 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		5E8777541A5810CF005E8972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8777471A5810CE005E8972 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E8776F61A580EB4005E8972 /* YoutubeVideoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeVideoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8776FA1A580EB4005E8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8776FB1A580EB4005E8972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8776FD1A580EB4005E8972 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E8776FE1A580EB4005E8972 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E8777001A580EB4005E8972 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E8777011A580EB4005E8972 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E8777041A580EB4005E8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E8777061A580EB4005E8972 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E8777091A580EB4005E8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E87770F1A580EB4005E8972 /* YoutubeVideoUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeVideoUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8777141A580EB4005E8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8777151A580EB4005E8972 /* YoutubeVideoUploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoutubeVideoUploadTests.m; sourceTree = "<group>"; };
+		5E8777471A5810CE005E8972 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = "../google-api-objectivec-client-read-only/Source/GTL.xcodeproj"; sourceTree = "<group>"; };
+		5E8777571A58110B005E8972 /* UploadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadController.h; sourceTree = "<group>"; };
+		5E8777581A58110B005E8972 /* UploadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadController.m; sourceTree = "<group>"; };
+		5E8777591A58110B005E8972 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		5E87775A1A58110B005E8972 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		5E87775B1A58110B005E8972 /* VideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
+		5E87775C1A58110B005E8972 /* VideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoData.m; sourceTree = "<group>"; };
+		5E87775D1A58110B005E8972 /* YouTubeDirectTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeDirectTag.h; sourceTree = "<group>"; };
+		5E87775E1A58110B005E8972 /* YouTubeDirectTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeDirectTag.m; sourceTree = "<group>"; };
+		5E87775F1A58110B005E8972 /* YouTubeGetUploads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeGetUploads.h; sourceTree = "<group>"; };
+		5E8777601A58110B005E8972 /* YouTubeGetUploads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeGetUploads.m; sourceTree = "<group>"; };
+		5E8777611A58110B005E8972 /* YouTubeUploadVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeUploadVideo.h; sourceTree = "<group>"; };
+		5E8777621A58110B005E8972 /* YouTubeUploadVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeUploadVideo.m; sourceTree = "<group>"; };
+		5E8777691A581147005E8972 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../../google-api-objectivec-client-read-only/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		5E87776B1A581170005E8972 /* GTLCommon_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLCommon_Sources.m; path = "../../../google-api-objectivec-client-read-only/Source/GTLCommon_Sources.m"; sourceTree = "<group>"; };
+		5E87776C1A581170005E8972 /* GTLNetworking_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLNetworking_Sources.m; path = "../../../google-api-objectivec-client-read-only/Source/GTLNetworking_Sources.m"; sourceTree = "<group>"; };
+		5E87808F1A5811EE005E8972 /* GTLYouTube_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLYouTube_Sources.m; path = "../../../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated/GTLYouTube_Sources.m"; sourceTree = "<group>"; };
+		5E8780911A5812BA005E8972 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E8780931A581318005E8972 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E8780951A581324005E8972 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5E8780971A58132B005E8972 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E87809C1A581681005E8972 /* videoTest.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = videoTest.MOV; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8776F31A580EB4005E8972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8780991A581336005E8972 /* CoreGraphics.framework in Frameworks */,
+				5E87809A1A58134A005E8972 /* UIKit.framework in Frameworks */,
+				5E8780961A581324005E8972 /* AVFoundation.framework in Frameworks */,
+				5E87809B1A58134E005E8972 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E87770C1A580EB4005E8972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E8776ED1A580EB4005E8972 = {
+			isa = PBXGroup;
+			children = (
+				5E8780971A58132B005E8972 /* CoreGraphics.framework */,
+				5E8780951A581324005E8972 /* AVFoundation.framework */,
+				5E8780931A581318005E8972 /* UIKit.framework */,
+				5E8777561A58110B005E8972 /* Source */,
+				5E8777471A5810CE005E8972 /* GTL.xcodeproj */,
+				5E8776F81A580EB4005E8972 /* YoutubeVideoUpload */,
+				5E8777121A580EB4005E8972 /* YoutubeVideoUploadTests */,
+				5E8776F71A580EB4005E8972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E8776F71A580EB4005E8972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8776F61A580EB4005E8972 /* YoutubeVideoUpload.app */,
+				5E87770F1A580EB4005E8972 /* YoutubeVideoUploadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8776F81A580EB4005E8972 /* YoutubeVideoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				5E8776FD1A580EB4005E8972 /* AppDelegate.h */,
+				5E8776FE1A580EB4005E8972 /* AppDelegate.m */,
+				5E8777001A580EB4005E8972 /* ViewController.h */,
+				5E8777011A580EB4005E8972 /* ViewController.m */,
+				5E8777031A580EB4005E8972 /* Main.storyboard */,
+				5E8777061A580EB4005E8972 /* Images.xcassets */,
+				5E8777081A580EB4005E8972 /* LaunchScreen.xib */,
+				5E8776F91A580EB4005E8972 /* Supporting Files */,
+			);
+			path = YoutubeVideoUpload;
+			sourceTree = "<group>";
+		};
+		5E8776F91A580EB4005E8972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E87809C1A581681005E8972 /* videoTest.MOV */,
+				5E8776FA1A580EB4005E8972 /* Info.plist */,
+				5E8776FB1A580EB4005E8972 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E8777121A580EB4005E8972 /* YoutubeVideoUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8777151A580EB4005E8972 /* YoutubeVideoUploadTests.m */,
+				5E8777131A580EB4005E8972 /* Supporting Files */,
+			);
+			path = YoutubeVideoUploadTests;
+			sourceTree = "<group>";
+		};
+		5E8777131A580EB4005E8972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E8780911A5812BA005E8972 /* Foundation.framework */,
+				5E8777141A580EB4005E8972 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E8777481A5810CE005E8972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E87774F1A5810CF005E8972 /* GTL.framework */,
+				5E8777511A5810CF005E8972 /* libGTLTouchStaticLib.a */,
+				5E8777531A5810CF005E8972 /* GTLUnitTests.xctest */,
+				5E8777551A5810CF005E8972 /* DevelopmentTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8777561A58110B005E8972 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5E8777691A581147005E8972 /* GTMOAuth2ViewTouch.xib */,
+				5E87776B1A581170005E8972 /* GTLCommon_Sources.m */,
+				5E87776C1A581170005E8972 /* GTLNetworking_Sources.m */,
+				5E87808F1A5811EE005E8972 /* GTLYouTube_Sources.m */,
+				5E8777571A58110B005E8972 /* UploadController.h */,
+				5E8777581A58110B005E8972 /* UploadController.m */,
+				5E8777591A58110B005E8972 /* Utils.h */,
+				5E87775A1A58110B005E8972 /* Utils.m */,
+				5E87775B1A58110B005E8972 /* VideoData.h */,
+				5E87775C1A58110B005E8972 /* VideoData.m */,
+				5E87775D1A58110B005E8972 /* YouTubeDirectTag.h */,
+				5E87775E1A58110B005E8972 /* YouTubeDirectTag.m */,
+				5E87775F1A58110B005E8972 /* YouTubeGetUploads.h */,
+				5E8777601A58110B005E8972 /* YouTubeGetUploads.m */,
+				5E8777611A58110B005E8972 /* YouTubeUploadVideo.h */,
+				5E8777621A58110B005E8972 /* YouTubeUploadVideo.m */,
+			);
+			name = Source;
+			path = YoutubeVideoUpload/Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E8776F51A580EB4005E8972 /* YoutubeVideoUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8777191A580EB4005E8972 /* Build configuration list for PBXNativeTarget "YoutubeVideoUpload" */;
+			buildPhases = (
+				5E8776F21A580EB4005E8972 /* Sources */,
+				5E8776F31A580EB4005E8972 /* Frameworks */,
+				5E8776F41A580EB4005E8972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeVideoUpload;
+			productName = YoutubeVideoUpload;
+			productReference = 5E8776F61A580EB4005E8972 /* YoutubeVideoUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E87770E1A580EB4005E8972 /* YoutubeVideoUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E87771C1A580EB4005E8972 /* Build configuration list for PBXNativeTarget "YoutubeVideoUploadTests" */;
+			buildPhases = (
+				5E87770B1A580EB4005E8972 /* Sources */,
+				5E87770C1A580EB4005E8972 /* Frameworks */,
+				5E87770D1A580EB4005E8972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8777111A580EB4005E8972 /* PBXTargetDependency */,
+			);
+			name = YoutubeVideoUploadTests;
+			productName = YoutubeVideoUploadTests;
+			productReference = 5E87770F1A580EB4005E8972 /* YoutubeVideoUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8776EE1A580EB4005E8972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = macmini17;
+				TargetAttributes = {
+					5E8776F51A580EB4005E8972 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5E87770E1A580EB4005E8972 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5E8776F51A580EB4005E8972;
+					};
+				};
+			};
+			buildConfigurationList = 5E8776F11A580EB4005E8972 /* Build configuration list for PBXProject "YoutubeVideoUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E8776ED1A580EB4005E8972;
+			productRefGroup = 5E8776F71A580EB4005E8972 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5E8777481A5810CE005E8972 /* Products */;
+					ProjectRef = 5E8777471A5810CE005E8972 /* GTL.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5E8776F51A580EB4005E8972 /* YoutubeVideoUpload */,
+				5E87770E1A580EB4005E8972 /* YoutubeVideoUploadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5E87774F1A5810CF005E8972 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 5E87774E1A5810CF005E8972 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E8777511A5810CF005E8972 /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = 5E8777501A5810CF005E8972 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E8777531A5810CF005E8972 /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = 5E8777521A5810CF005E8972 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E8777551A5810CF005E8972 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = 5E8777541A5810CF005E8972 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8776F41A580EB4005E8972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E87776A1A581147005E8972 /* GTMOAuth2ViewTouch.xib in Resources */,
+				5E87809D1A581681005E8972 /* videoTest.MOV in Resources */,
+				5E8777051A580EB4005E8972 /* Main.storyboard in Resources */,
+				5E87770A1A580EB4005E8972 /* LaunchScreen.xib in Resources */,
+				5E8777071A580EB4005E8972 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E87770D1A580EB4005E8972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8776F21A580EB4005E8972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8777021A580EB4005E8972 /* ViewController.m in Sources */,
+				5E8777651A58110B005E8972 /* VideoData.m in Sources */,
+				5E8780901A5811EE005E8972 /* GTLYouTube_Sources.m in Sources */,
+				5E8776FF1A580EB4005E8972 /* AppDelegate.m in Sources */,
+				5E87776D1A581170005E8972 /* GTLCommon_Sources.m in Sources */,
+				5E87776E1A581170005E8972 /* GTLNetworking_Sources.m in Sources */,
+				5E8777671A58110B005E8972 /* YouTubeGetUploads.m in Sources */,
+				5E8777661A58110B005E8972 /* YouTubeDirectTag.m in Sources */,
+				5E8777631A58110B005E8972 /* UploadController.m in Sources */,
+				5E8777681A58110B005E8972 /* YouTubeUploadVideo.m in Sources */,
+				5E8777641A58110B005E8972 /* Utils.m in Sources */,
+				5E8776FC1A580EB4005E8972 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E87770B1A580EB4005E8972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8777161A580EB4005E8972 /* YoutubeVideoUploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E8777111A580EB4005E8972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8776F51A580EB4005E8972 /* YoutubeVideoUpload */;
+			targetProxy = 5E8777101A580EB4005E8972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E8777031A580EB4005E8972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8777041A580EB4005E8972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E8777081A580EB4005E8972 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8777091A580EB4005E8972 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E8777171A580EB4005E8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E8777181A580EB4005E8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E87771A1A580EB4005E8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Utilities\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2/Touch\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Objects\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/HTTPFetcher\"",
+				);
+				INFOPLIST_FILE = YoutubeVideoUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E87771B1A580EB4005E8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Services/YouTube/Generated\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Utilities\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2/Touch\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/OAuth2\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/Objects\"",
+					"\"$(SRCROOT)/../google-api-objectivec-client-read-only/Source/HTTPFetcher\"",
+				);
+				INFOPLIST_FILE = YoutubeVideoUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E87771D1A580EB4005E8972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YoutubeVideoUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoutubeVideoUpload.app/YoutubeVideoUpload";
+			};
+			name = Debug;
+		};
+		5E87771E1A580EB4005E8972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YoutubeVideoUploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoutubeVideoUpload.app/YoutubeVideoUpload";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8776F11A580EB4005E8972 /* Build configuration list for PBXProject "YoutubeVideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8777171A580EB4005E8972 /* Debug */,
+				5E8777181A580EB4005E8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8777191A580EB4005E8972 /* Build configuration list for PBXNativeTarget "YoutubeVideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E87771A1A580EB4005E8972 /* Debug */,
+				5E87771B1A580EB4005E8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E87771C1A580EB4005E8972 /* Build configuration list for PBXNativeTarget "YoutubeVideoUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E87771D1A580EB4005E8972 /* Debug */,
+				5E87771E1A580EB4005E8972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E8776EE1A580EB4005E8972 /* Project object */;
+}
